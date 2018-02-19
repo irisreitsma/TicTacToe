@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // reload same state
+        // reload same state of game
         if (savedInstanceState != null) {
             game = (Game) savedInstanceState.getSerializable("game");
             for (int i = 0; i < length; i++) {
