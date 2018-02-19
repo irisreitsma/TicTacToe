@@ -17,6 +17,8 @@
             android:id="@+id/button11"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -25,6 +27,8 @@
             android:layout_height="100dp"
             android:layout_column="1"
             android:layout_row="0"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -33,6 +37,8 @@
             android:layout_height="100dp"
             android:layout_column="2"
             android:layout_row="0"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -41,6 +47,8 @@
             android:layout_height="100dp"
             android:layout_column="0"
             android:layout_row="1"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -49,6 +57,8 @@
             android:layout_height="100dp"
             android:layout_column="1"
             android:layout_row="1"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -57,6 +67,8 @@
             android:layout_height="100dp"
             android:layout_column="2"
             android:layout_row="1"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -65,6 +77,8 @@
             android:layout_height="100dp"
             android:layout_column="0"
             android:layout_row="2"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -73,6 +87,8 @@
             android:layout_height="100dp"
             android:layout_column="1"
             android:layout_row="2"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
 
         <Button
@@ -81,6 +97,8 @@
             android:layout_height="100dp"
             android:layout_column="2"
             android:layout_row="2"
+            android:textSize="60sp"
+            android:textColor="#e829df"
             android:onClick="tileClicked" />
     </GridLayout>
 
@@ -89,5 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="resetClicked"
-        android:text="New game" />
+        android:text="New game"
+        android:textColor="#296fe8"/>
+
 </LinearLayout>
